@@ -1,1 +1,19 @@
 images/
+sample_submission_v2.csv
+train_ship_segmentations_v2.csv
+ model16x16/model_training.ipynb
+ model16x16/best_model/keras_metadata.pb
+ model16x16/best_model/saved_model.pb
+ model16x16/best_model/variables/variables.data-00000-of-00001
+ model16x16/best_model/variables/variables.index
+ model16x16/full_model/keras_metadata.pb
+ model16x16/full_model/saved_model.pb
+ model16x16/full_model/variables/variables.data-00000-of-00001
+ model16x16/full_model/variables/variables.index
+best_model/fingerprint.pb
+best_model/keras_metadata.pb
+best_model/saved_model.pb
+best_model/variables/variables.data-00000-of-00001
+best_model/variables/variables.index
+.DS_Store
+.gitignore
