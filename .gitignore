@@ -17,3 +17,8 @@ best_model/variables/variables.data-00000-of-00001
 best_model/variables/variables.index
 .DS_Store
 .gitignore
+.ipynb_checkpoints/exploratory_data_analysis-checkpoint.ipynb
+.ipynb_checkpoints/model_training-checkpoint.ipynb
+.ipynb_checkpoints/submission_creator-checkpoint.ipynb
+.ipynb_checkpoints/test_model-checkpoint.ipynb
+.gitignore
