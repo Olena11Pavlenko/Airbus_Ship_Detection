@@ -9,6 +9,8 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 image_folder = './images/test'  # Folder containing the images for prediction
 crop_size = (128, 128)
+# Load the trained model
+model = load_model('best_model', compile=False)
 
 
 def crop_image(image, crop_size):
@@ -46,10 +48,6 @@ def join_masks(masks, crop_size, image_size):
             mask = (mask * 255).astype(np.uint8)  # Scale the mask and convert to uint8
             image[y_start:y_start + crop_size[0], x_start:x_start + crop_size[1]] = mask
     return image
-
-
-# Load the trained model
-model = load_model('best_model', compile=False)
 
 # Iterate over each image in the folder
 for filename in os.listdir(image_folder):
