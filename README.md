@@ -10,8 +10,8 @@ Requirements
 
 To run the code and deploy the model, you need to have the following dependencies installed:
 
-Python (3.7 or later)
-TensorFlow (2.0 or later)
+Python 3.10
+TensorFlow 2.10.0
 pandas
 numpy
 matplotlib
@@ -19,7 +19,7 @@ PIL
 
 You can install the required packages by running the following command:
 
-`pip install -r requirements.txt`
+`conda create --name <env> --file requirements.txt`
 
 Usage
 
